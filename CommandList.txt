@@ -1,0 +1,9 @@
+cat 
+copy
+chmod
+touch
+echo
+ls
+nl
+pwd
+cd

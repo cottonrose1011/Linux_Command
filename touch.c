@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
         exit(-1);
     }
 
-    utime(argv[1], NULL); //수정 시간 변경
+    utime(argv[1], NULL); //Update Last Write Time
 
     
     return 0;
