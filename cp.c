@@ -10,14 +10,14 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    fp1 = fopen(argv[1], "r");
+    fp1 = fopen(argv[1], "rb");
 
     if(fp1 = NULL){
         fprintf(stderr, "파일 %s 열기 오류\n", argv[1]);
         return 2;
     }
     
-    fp2 = fopen(argv[2], "w");
+    fp2 = fopen(argv[2], "wb");
     while((c=fgetc(fp1)) != EOF)
         fputc(c, fp2);
 
